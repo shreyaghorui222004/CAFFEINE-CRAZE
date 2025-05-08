@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAFFEINE CRAZE | Premium Coffee Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>CAFFEINE<span>CRAZE</span></h1>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Start Your Day With</h2>
+                <h1>A Perfect Cup of Coffee</h1>
+                <p>Experience the rich aroma and exceptional taste of our premium coffee blends, sourced from the finest beans around the world.</p>
+                <div class="hero-buttons">
+                    <a href="#menu" class="btn primary-btn">View Menu</a>
+                    <a href="#about" class="btn secondary-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="Premium beans.jpg" alt="Premium Beans">
+                    </div>
+                    <h3>Premium Beans</h3>
+                    <p>Sourced from the world's finest coffee regions for exceptional taste.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="expert baristas 3.jpg" alt="Expert Baristas">
+                    </div>
+                    <h3>Expert Baristas</h3>
+                    <p>Our skilled baristas craft each cup with precision and artistry.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="cozy atmosphere 2.jpg" alt="Cozy Atmosphere">
+                    </div>
+                    <h3>Cozy Atmosphere</h3>
+                    <p>Relax in our warm, inviting space designed for comfort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="Coffee shop interior 2.jpg" alt="Coffee Shop Interior">
+                </div>
+                <div class="about-text">
+                    <h3>Our Coffee Story</h3>
+                    <p>Welcome to CAFFEINECRAZE, where every cup tells a story.
+
+                        Born from a love of rich aromas, cozy corners, and genuine connections, we set out to create more than just a coffee shop — we built a community. From carefully sourced beans to hand-crafted brews, every sip is a celebration of flavor, culture, and comfort.
+                        
+                        </p>
+                    <p>Whether you're here for your morning pick-me-up, an afternoon pause, or a quiet space to work or catch up, we’re here to make your moments memorable. With local ingredients, friendly baristas, and a passion for perfection, we invite you to experience coffee the way it’s meant to be — warm, welcoming, and unforgettable.
+
+                        Come for the coffee. Stay for the vibe.
+                        
+                        </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>15</h4>
+                            <p>Coffee Varieties</p>
+                        </div>
+                        <div class="stat">
+                            <h4>5000+</h4>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Menu</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="menu-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="hot">Hot Coffee</button>
+                <button class="filter-btn" data-filter="cold">Cold Coffee</button>
+                <button class="filter-btn" data-filter="pastry">Pastries</button>
+            </div>
+            <div class="menu-grid">
+                <!-- Hot Coffee Items -->
+                <div class="menu-item hot">
+                    <div class="menu-image">
+                        <img src="Expresso.jpg" alt="Espresso">
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title">
+                            <h3>Espresso</h3>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <p>Rich, full-bodied espresso with a caramel-like sweetness.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item hot">
+                    <div class="menu-image">
+                        <img src="Cappuccino.jpg" alt="Cappuccino">
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title">
+                            <h3>Cappuccino</h3>
+                            <span class="price">$4.50</span>
+                        </div>
+                        <p>Equal parts espresso, steamed milk, and silky microfoam.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item hot">
+                    <div class="menu-image">
+                        <img src="Latte.jpg" alt="Latte">
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title">
+                            <h3>Latte</h3>
+                            <span class="price">$4.75</span>
+                        </div>
+                        <p>Smooth espresso with steamed milk and a light layer of foam.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Cold Coffee Items -->
+                <div class="menu-item cold">
+                    <div class="menu-image">
+                        <img src="iced coffee.jpg" alt="Iced Coffee">
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title">
+                            <h3>Iced Coffee</h3>
+                            <span class="price">$4.25</span>
+                        </div>
+                        <p>Chilled coffee served over ice for a refreshing experience.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item cold">
+                    <div class="menu-image">
+                        <img src="cold brew.jpg" alt="Cold Brew">
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title">
+                            <h3>Cold Brew</h3>
+                            <span class="price">$5.00</span>
+                        </div>
+                        <p>Slow-steeped for 24 hours, resulting in a smooth, low-acid coffee.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item cold">
+                    <div class="menu-image">
+                        <img src="Frappuccino.jpg" alt="Frappuccino">
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title">
+                            <h3>Frappuccino</h3>
+                            <span class="price">$5.50</span>
+                        </div>
+                        <p>Blended coffee with ice, milk, and whipped cream topping.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Pastry Items -->
+                <div class="menu-item pastry">
+                    <div class="menu-image">
+                        <img src="Croissant.jpg" alt="Croissant">
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title">
+                            <h3>Butter Croissant</h3>
+                            <span class="price">$3.25</span>
+                        </div>
+                        <p>Flaky, buttery pastry with a golden-brown exterior.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="menu-item pastry">
+                    <div class="menu-image">
+                        <img src="Chocolate  Muffin.jpg" alt="Chocolate Muffin">
+                    </div>
+                    <div class="menu-details">
+                        <div class="menu-title">
+                            <h3>Chocolate Muffin</h3>
+                            <span class="price">$3.75</span>
+                        </div>
+                        <p>Rich chocolate muffin with chocolate chips throughout.</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-container" id="testimonial-container">
+                    <div class="testimonial active">
+                        <div class="testimonial-content">
+                            <div class="quote">"</div>
+                            <p>The best coffee I've ever had! The atmosphere is cozy and the staff is incredibly friendly. I come here every morning before work.</p>
+                            <div class="testimonial-author">
+                                <img src="Sarah  johnson.jpg" alt="Sarah Johnson">
+                                <div>
+                                    <h4>Sarah Johnson</h4>
+                                    <p>Regular Customer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="quote">"</div>
+                            <p>Their cold brew is absolutely amazing. Smooth, flavorful, and never bitter. This place has become my weekend retreat to catch up on reading.</p>
+                            <div class="testimonial-author">
+                                <img src="/Michael chen.jpg" alt="Michael Chen">
+                                <div>
+                                    <h4>Michael Chen</h4>
+                                    <p>Coffee Enthusiast</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="quote">"</div>
+                            <p>I've tried coffee shops all over the city, and Brew Haven consistently delivers the best lattes. The pastries are also to die for!</p>
+                            <div class="testimonial-author">
+                                <img src="Emily  Rodriguez.jpg" alt="Emily Rodriguez">
+                                <div>
+                                    <h4>Emily Rodriguez</h4>
+                                    <p>Food Blogger</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button id="prev-testimonial" class="testimonial-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button id="next-testimonial" class="testimonial-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visit Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div>
+                            <h3>Our Location</h3>
+                            <p>123 College Street, Kolkata,700001</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Monday - Friday: 7:00 AM - 8:00 PM</p>
+                            <p>Saturday - Sunday: 8:00 AM - 9:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <div>
+                            <h3>Contact Us</h3>
+                            <p>Phone: (+91) 123-4567</p>
+                            <p>Email: info@CAFFEINECRAZE.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with our latest offers, new coffee blends, and events.</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn primary-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>CAFFEINE<span>CRAZE</span></h2>
+                    <p>Where every cup tells a story.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 CAFFEINE CRAZE. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button id="close-cart">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be added here by JavaScript -->
+        </div>
+        <div class="cart-total">
+            <p>Total: <span id="cart-total">$0.00</span></p>
+            <button class="btn primary-btn">Checkout</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
